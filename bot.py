@@ -4,6 +4,7 @@ import random
 import openai
 import tweepy
 from dotenv import load_dotenv
+from datetime import datetime
 
 load_dotenv()
 
@@ -17,6 +18,25 @@ twitter_client = tweepy.Client(
     access_token=os.getenv("TWITTER_ACCESS_TOKEN"),
     access_token_secret=os.getenv("TWITTER_ACCESS_TOKEN_SECRET"),
 )
+
+
+def choose_prompt(prompts):
+    hour = datetime.now().hour
+
+    if 6 <= hour < 12:
+        category = "# value"
+    elif 12 <= hour < 18:
+        category = "# engagement"
+    elif 18 <= hour < 24:
+        category = "# cta"
+    else:
+        category = "# authority"
+
+    filtered = [p for p in prompts if p.lower().startswith(category)]
+    if not filtered:
+        filtered = prompts  # fallback to all
+    prompt = random.choice(filtered)
+    return prompt.replace(category, "").strip()
 
 
 def generate_tweet(prompt):

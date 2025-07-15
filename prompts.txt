@@ -1,20 +1,110 @@
+# value
 Tweet a witty take about using Linux as a dev.
-Make a bold claim about Arch Linux that only true users will get.
 Explain why indie hackers should learn basic sysadmin skills.
-Share a hard truth about freelancing no one talks about.
-Post a short dev log update in the style of #buildinpublic.
-What’s something only an Arch Linux user would brag about?
-Make a joke about debugging on Linux.
 What’s one command line tool that changed your workflow?
 Share a tip for indie hackers running solo businesses.
-Post a lesson learned from a recent freelancing gig.
-Write a spicy take on people using no-code instead of learning Linux.
 Tweet a motivational quote for self-employed devs.
 How does Linux make you a better indie hacker?
 Why should every developer try Arch at least once?
+Create a short tweet that would appeal to other autistic devs.
+Share your favorite Linux config (dotfile or tool).
+What’s a lesser-known CLI tool every dev should know?
+How can journaling improve your dev process?
+List 3 ways to stay focused while freelancing.
+What's a good morning ritual for productive indie hackers?
+Name a lightweight Linux window manager and why you like it.
+What's a smart way to use `cron` as a solo dev?
+Why switching to Tiling WM saved me hours.
+3 things I automated this week using Bash or Python.
+What does your `.bashrc` or `.zshrc` say about you?
+Write a tweet that teaches a tiny but powerful Git command.
+What plugin made your Neovim setup 10× better?
+Tweet a motivational quote for devs in month 3 of their SaaS.
+What makes terminal-first workflows more peaceful?
+Explain how Docker saves time for solo builders.
+Why you should self-host more of your stack.
+Teach one thing about SSH you wish you knew earlier.
+Share a Linux shortcut that saves your wrists.
+
+# engagement
+Make a joke about debugging on Linux.
+Write a spicy take on people using no-code instead of learning Linux.
 Make a sarcastic tweet about clients asking for “just one more change.”
 Write a tweet that’d go viral in the #indiehacker world.
 How do you balance marketing and building as a dev?
-Create a short tweet that would appeal to other autistic devs.
+What's a tool you refuse to stop using, even if it's "outdated"?
+What's the most controversial dev take you have?
+Freelancers: what's one thing you never do anymore?
+What’s the most underrated Linux distro for devs?
+Would you rather use Vim or quit coding?
+What terminal do you use and why?
+What’s your dev stack hill you’ll die on?
+What makes Arch Linux users so smug?
+What client red flag makes you immediately say “no”?
+What’s your biggest SaaS fail so far?
+Post the worst tech advice you’ve ever received.
+Which SaaS product would you rebuild in a weekend?
+What would you build if you had no fear?
+Freelancers: do you use contracts or vibes?
+What's your most chaotic dev story?
+Name one command that saved your system once.
+Why are we still writing CSS in 2025?
+What’s your go-to cold outreach strategy?
+Why does no one teach pricing in dev bootcamps?
+Do you prefer bug-free or feature-rich? Why?
+
+# authority
+Make a bold claim about Arch Linux that only true users will get.
+Share a hard truth about freelancing no one talks about.
+Post a short dev log update in the style of #buildinpublic.
+What’s something only an Arch Linux user would brag about?
+Post a lesson learned from a recent freelancing gig.
 What's a weekly win you had building in public?
-Share your favorite Linux config (dotfile or tool).
+Reflect on a bug you solved that felt impossible.
+Document a mini-milestone from your indie dev journey.
+Write about a tool you removed that made your system faster.
+Describe a moment where quitting would've been easier.
+What did you ship this week, even if it's imperfect?
+How did you get your first paying client?
+How did Linux help you debug a production issue?
+What surprised you most in your first year freelancing?
+Post a quiet win that meant a lot.
+What’s your biggest breakthrough moment building in public?
+Write a dev log update that includes a failure and fix.
+Document a bug that taught you something deeper.
+Share a realization about client communication.
+Reflect on one thing that’s easier now than 6 months ago.
+Talk about one mental shift that changed your coding career.
+Write about a mistake that made you better.
+What’s something you fixed in your stack this week?
+Post about overcoming burnout while freelancing.
+Explain how you scaled back complexity and shipped faster.
+
+# cta
+Share a hook that invites people to check out your latest blog post: https://baileyburnsed.dev/blog/arch-linux-freelancer
+Write a CTA tweet linking to your open-source dotfiles.
+Promote a blog about your indie hacker stack choices.
+Invite people to join your email list for weekly Linux tips.
+Link to your latest YouTube video on freelancing with Arch Linux.
+Invite feedback on your landing page: https://yourapp.com
+Write a teaser for your blog on how you landed your first 3 clients.
+Promote a post explaining your switch to full-time freelancing.
+Link to your tweet thread on your Neovim setup.
+Promote your free email course on self-hosting.
+Write a tweet announcing your open beta launch.
+Link to your recent GitHub release with a short announcement.
+Tease a tutorial you just published: “Learn Docker in 5 steps.”
+Tweet about a new tool you’re building and invite testers.
+Invite feedback on your SaaS pricing page.
+Share a Notion template you give away for free.
+Link to your article on why you use Linux for all freelance work.
+Promote a Twitter thread that breaks down your backend stack.
+Invite people to DM you for 1:1 consulting.
+Promote your new Gumroad product for indie hackers.
+Share your portfolio site and ask for feedback.
+Link to your “How I built this” post for your product.
+Tweet about how someone can hire you: “Need a dev?”
+Promote a new feature you shipped today.
+Invite feedback on a blog post you're unsure about.
+Link to a short blog post with your dev philosophy.
+
