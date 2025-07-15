@@ -49,7 +49,7 @@ def generate_tweet(prompt):
 
     try:
         res = openai_client.chat.completions.create(
-            model="gpt-3.5-turbo",
+            model="gpt-4.1",
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": f"Write a tweet: {prompt}"},
@@ -80,7 +80,7 @@ def load_prompts():
 def main():
     prompts = load_prompts()
     for _ in range(20):
-        prompt = random.choice(prompts)
+        prompt = choose_prompt(prompts)
         tweet = generate_tweet(prompt)
         if tweet:
             post_tweet(tweet)
