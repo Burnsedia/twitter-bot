@@ -57,7 +57,7 @@ def generate_tweet(prompt):
             max_tokens=120,
             temperature=0.9,
         )
-        tweet = res.choices[0].message.content.strip()
+        tweet = res.choices[0].message.content.strip().strip('"')
         return tweet[:280]
     except Exception as e:
         print("⚠️ OpenAI error:", e)
