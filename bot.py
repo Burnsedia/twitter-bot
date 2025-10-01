@@ -20,8 +20,9 @@ twitter_client = tweepy.Client(
 
 
 def choose_prompt(prompts):
-    categories = ["# value", "# engagement", "# cta", "# authority"]
+    categories = ["# value", "# engagement", "# authority"]
     category = random.choice(categories)
+    print("✅ Using:", category) 
 
     filtered = [p for p in prompts if p.lower().startswith(category)]
     if not filtered:

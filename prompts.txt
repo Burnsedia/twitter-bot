@@ -56,9 +56,7 @@ Do you prefer bug-free or feature-rich? Why?
 # authority
 Make a bold claim about Arch Linux that only true users will get.
 Share a hard truth about freelancing no one talks about.
-Post a short dev log update in the style of #buildinpublic.
 What’s something only an Arch Linux user would brag about?
-Post a lesson learned from a recent freelancing gig.
 What's a weekly win you had building in public?
 Reflect on a bug you solved that felt impossible.
 Document a mini-milestone from your indie dev journey.
@@ -100,7 +98,6 @@ Share a Notion template you give away for free.
 Link to your article on why you use Linux for all freelance work.
 Promote a Twitter thread that breaks down your backend stack.
 Invite people to DM you for 1:1 consulting.
-Promote your new Gumroad product for indie hackers.
 Share your portfolio site and ask for feedback.
 Link to your “How I built this” post for your product.
 Tweet about how someone can hire you: “Need a dev?”
