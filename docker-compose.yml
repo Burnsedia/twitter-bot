@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   twitter-bot:
-    build: .
+    image: ghcr.io/Burnsedia/twitter-bot:latest
     container_name: twitter-bot
     env_file:
       - .env
