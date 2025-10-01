@@ -1,5 +1,4 @@
 import os
-import time
 import random
 import openai
 import tweepy
@@ -79,12 +78,10 @@ def load_prompts():
 
 def main():
     prompts = load_prompts()
-    for _ in range(20):
-        prompt = choose_prompt(prompts)
-        tweet = generate_tweet(prompt)
-        if tweet:
-            post_tweet(tweet)
-        time.sleep(60 * 72)  # ~72 mins between tweets
+    prompt = choose_prompt(prompts)
+    tweet = generate_tweet(prompt)
+    if tweet:
+        post_tweet(tweet)
 
 
 if __name__ == "__main__":
