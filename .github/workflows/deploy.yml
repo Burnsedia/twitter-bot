@@ -1,4 +1,4 @@
-name: Deploy to VPS
+name: Build and Push Docker Image
 
 on:
   push:
@@ -27,19 +27,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/${{ github.repository_owner }}/twitter-bot:latest
-
-  deploy:
-    needs: build-and-push
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy to VPS
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.VPS_HOST }}
-          username: ${{ secrets.VPS_USER }}
-          key: ${{ secrets.VPS_SSH_PRIVATE_KEY }}
-          script: |
-            cd /home/cypher/dev/bots/twitter-bot
-            docker-compose pull
-            docker image prune -f
+          tags: ghcr.io/Burnsedia/twitter-bot:latest
