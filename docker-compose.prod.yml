@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  twitter-bot:
+    image: ghcr.io/Burnsedia/twitter-bot:latest
+    container_name: twitter-bot
+    env_file:
+      - .env
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
+
+  watchtower:
+    image: containrrr/watchtower
+    container_name: watchtower
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: --interval 300 --label-enable
