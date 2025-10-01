@@ -7,7 +7,6 @@ WORKDIR /app
 COPY requirements.txt .
 COPY prompts.txt .
 COPY bot.py .
-COPY .env .
 
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
