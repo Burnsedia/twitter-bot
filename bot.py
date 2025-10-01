@@ -20,16 +20,8 @@ twitter_client = tweepy.Client(
 
 
 def choose_prompt(prompts):
-    hour = datetime.now().hour
-
-    if 6 <= hour < 12:
-        category = "# value"
-    elif 12 <= hour < 18:
-        category = "# engagement"
-    elif 18 <= hour < 24:
-        category = "# cta"
-    else:
-        category = "# authority"
+    categories = ["# value", "# engagement", "# cta", "# authority"]
+    category = random.choice(categories)
 
     filtered = [p for p in prompts if p.lower().startswith(category)]
     if not filtered:
