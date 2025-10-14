@@ -37,6 +37,7 @@ def generate_tweet(prompt):
         "Your tweets start with a one-line insight, then list 3–5 short steps or ideas (like a mini-guide), "
         "each on its own line with a dash. End with relevant hashtags like #buildinpublic and #indiehacker. "
         "No more than 280 characters total. Make it sharp and readable."
+        "Do NOT use em dashes (—); use regular hyphens (-) or other punctuation instead."    
     )
 
     try:
