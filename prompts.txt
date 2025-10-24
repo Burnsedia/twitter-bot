@@ -28,6 +28,8 @@ Share a Linux shortcut that saves your wrists.
 
 # engagement
 Make a joke about debugging on Linux.
+Make a joke about debugging JavaScript.
+Make a joke about JavaScript being retarded.
 Write a spicy take on people using no-code instead of learning Linux.
 Make a sarcastic tweet about clients asking for “just one more change.”
 Write a tweet that’d go viral in the #indiehacker world.
