@@ -1,3 +1,13 @@
+
+TODO: make this article "Tease a tutorial you just published: “Learn Docker in 5 steps.”"
+TODO: "Link to your recent GitHub release with a short announcement."
+TODO: 'Tease a tutorial you just published: “Learn Docker in 5 steps.”'
+TODO: "Promote your free email course on self-hosting."
+TODO: "Write a tweet announcing your open beta launch."
+
+
+
+
 # value
 Tweet a witty take about using Linux as a dev.
 Explain why indie hackers should learn basic sysadmin skills.
@@ -30,6 +40,7 @@ Share a Linux shortcut that saves your wrists.
 Make a joke about debugging on Linux.
 Make a joke about debugging JavaScript.
 Make a joke about JavaScript being retarded.
+Make a post explaining my switch to full-time freelancing.
 Write a spicy take on people using no-code instead of learning Linux.
 Make a sarcastic tweet about clients asking for “just one more change.”
 Write a tweet that’d go viral in the #indiehacker world.
@@ -83,26 +94,12 @@ Explain how you scaled back complexity and shipped faster.
 # cta
 Share a hook that invites people to check out your latest blog post: https://baileyburnsed.dev/blog/
 Write a CTA tweet linking to your open-source dotfiles https://github.com/Burnsedia/dotfiles.
-Invite people to join your email list for weekly Linux tips.
-Link to your latest YouTube video on freelancing with Arch Linux.
-Invite feedback on your landing page: https://yourapp.com
-Write a teaser for your blog on how you landed your first 3 clients.
+Invite people to join your email list for weekly Linux tips https://baileyburnsed.dev/newsletter/.
+Invite people to join your email list for weekly freelancing tips https://baileyburnsed.dev/newsletter/.
+Invite people to join your email list for weekly neovim tips https://baileyburnsed.dev/newsletter/.
+Invite people to join your email list for weekly developer tips https://baileyburnsed.dev/newsletter/.
 Promote a post explaining your switch to full-time freelancing.
 Link to your tweet thread on your Neovim setup.
-Promote your free email course on self-hosting.
-Write a tweet announcing your open beta launch.
-Link to your recent GitHub release with a short announcement.
-Tease a tutorial you just published: “Learn Docker in 5 steps.”
-Tweet about a new tool you’re building and invite testers.
-Invite feedback on your SaaS pricing page.
-Share a Notion template you give away for free.
-Link to your article on why you use Linux for all freelance work.
-Promote a Twitter thread that breaks down your backend stack.
 Invite people to DM you for 1:1 consulting.
-Share your portfolio site and ask for feedback.
-Link to your “How I built this” post for your product.
 Tweet about how someone can hire you: “Need a dev?”
-Promote a new feature you shipped today.
-Invite feedback on a blog post you're unsure about.
-Link to a short blog post with your dev philosophy.
 
