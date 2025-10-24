@@ -81,9 +81,8 @@ Post about overcoming burnout while freelancing.
 Explain how you scaled back complexity and shipped faster.
 
 # cta
-Share a hook that invites people to check out your latest blog post: https://baileyburnsed.dev/blog/arch-linux-freelancer
-Write a CTA tweet linking to your open-source dotfiles.
-Promote a blog about your indie hacker stack choices.
+Share a hook that invites people to check out your latest blog post: https://baileyburnsed.dev/blog/
+Write a CTA tweet linking to your open-source dotfiles https://github.com/Burnsedia/dotfiles.
 Invite people to join your email list for weekly Linux tips.
 Link to your latest YouTube video on freelancing with Arch Linux.
 Invite feedback on your landing page: https://yourapp.com
