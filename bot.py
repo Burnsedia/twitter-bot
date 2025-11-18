@@ -90,9 +90,8 @@ def choose_system_prompt() -> str:
         "End with a soft CTA such as DM me for the waiting list link. "
         "Stay under 280 characters. Never use em dashes; use hyphens only."
     )
-
-    # --- PROMPT LIST ---
-
+    
+    # list of system prompts
     prompts = [
         motivation_prompt,
         contrast_prompt,
@@ -100,11 +99,13 @@ def choose_system_prompt() -> str:
         hot_take_prompt,
         argument_driver_prompt,
         shitpost_prompt,
+        stoic_prompt,
+        soft_cta_prompt,
     ]
 
     # --- SELECT RANDOM ---
-    chosen = random.choice(stoic_prompt)
-
+    chosen = random.choice(prompts)
+    #chosen = soft_cta_prompt
     # --- PRINT TO TERMINAL FOR DEBUGGING ---
     print("\n=== System Prompt Selected ===")
     print(chosen)
